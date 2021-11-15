@@ -1,3 +1,3 @@
-./Voting_System/db.sqlite3
-./Voting_System/.idea
-.gitignore
+./votingsystem/db.sqlite3
+./votingsystem/.idea
+./.gitignore
