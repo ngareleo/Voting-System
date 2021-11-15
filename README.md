@@ -1,4 +1,4 @@
-# voting-system
+# Voting System 🎟️
 An voting system for a school president role (Python Django Assignment)
 
 ## Tools used
