@@ -1,0 +1,28 @@
+"""
+Voting System
+
+.. A login page
+    .. The user logs in using their voters ID and national ID
+    .. Send a POST for login info
+    .. If the details are correct
+        .. Render home page
+        .. If the user has not voted
+            .. show voting form
+            .. user submits form
+            .. if it sent successfully
+                .. show modal
+
+                ..create a vote object
+                .. if not successful
+                    .. rollback any changes
+                    .. re-render page with error message
+                .. re-render home page
+                .. perform query and render the bar chart
+                .. chartJS
+
+            .. else
+                ..Show error message
+    .. else
+        .. Show the FLASH Message
+
+"""
