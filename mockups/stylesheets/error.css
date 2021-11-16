@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.main-container {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-bar {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar div {
+  margin: 0px 30px;
+}
+
+#logo {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #4a4d54;
+}
+
+.main-body-container {
+  width: 90%;
+  height: fit-content;
+}
+
+.header-container,
+.body-content-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-container {
+  width: 100%;
+  height: 100px;
+}
+
+.header-container #error-msg-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #4a4d54;
+}
+
+.body-content-container {
+  width: 100%;
+  height: 100px;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.error-msg-container #error-message {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Primary/Black */
+
+  color: #232325;
+}
+
+#home-a-link #home-link-btn {
+  padding: 10px;
+
+  /* Primary / Blue */
+
+  background: #2e65f3;
+  border-radius: 8px;
+  border: none;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Primary/White */
+
+  color: #ffffff;
+}
