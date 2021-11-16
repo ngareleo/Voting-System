@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/stylesheets/index.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="nav-header">
+        <div class="logo-container">
+          <a href="#" id="logo"><img src="/static/logo.svg" alt="Kura" /></a>
+        </div>
+        <div class="nav-links">
+          <div class="link-container">
+            <a href="#">contact</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-body-container">
+        <div class="body-header">
+          <p id="body-header">Welcome, Lucy Kilua</p>
+        </div>
+
+        <div class="body-form-container">
+          <div class="form-header">
+            <p id="form-header">Choose your candidate</p>
+          </div>
+
+          <div class="form-container">
+            <form action="/vote" method="post" class="voteForm" name="voteForm">
+              <div class="form-content">
+                <div class="candidate-container">
+                  <div class="input-container">
+                    <input type="radio" name="candidate" id="candidate" />
+                  </div>
+                  <div class="candidate-info">
+                    <div class="candidate-name">
+                      <p id="c-name">Micheal Oliver</p>
+                    </div>
+                    <div class="candidate-party">
+                      <p id="c-party">JJ Party</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="candidate-container">
+                  <div class="input-container">
+                    <input type="radio" name="candidate" id="candidate" />
+                  </div>
+                  <div class="candidate-info">
+                    <div class="candidate-name">
+                      <p id="c-name">Micheal Oliver</p>
+                    </div>
+                    <div class="candidate-party">
+                      <p id="c-party">JJ Party</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="candidate-container">
+                  <div class="input-container">
+                    <input type="radio" name="candidate" id="candidate" />
+                  </div>
+                  <div class="candidate-info">
+                    <div class="candidate-name">
+                      <p id="c-name">Micheal Oliver</p>
+                    </div>
+                    <div class="candidate-party">
+                      <p id="c-party">JJ Party</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-submit-container">
+                <input type="submit" value="vote" id="submit-button" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal-container">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div id="header-content">
+            <p id="header">Confirm Action</p>
+          </div>
+          <div class="close-button">
+            <p id="close">&times;</p>
+          </div>
+        </div>
+        <div class="modal-question">
+          <p id="modal-q">Are you sure you want to cast this vote?</p>
+        </div>
+        <div class="modal-actions">
+          <div class="action-button-group">
+            <button id="exit-button">No. Take me back</button>
+            <button id="continue-button">Yes. Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="success-modal-container">
+      <div class="success-modal">
+        <div class="success-image-container">
+          <img src="/static/Modals-success.svg" alt="Congratulations!" />
+        </div>
+        <div class="success-modal-header">
+          <p id="header">Vote Casted!</p>
+        </div>
+        <div class="success-modal-msg">
+          <p id="msg-content">
+            Your vote has been cast successfully. Thank you for voting.
+          </p>
+        </div>
+        <div class="success-modal-exit-link">
+          <a href="">
+            <button id="success-exit-button">Take me back to Home Page</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
