@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.main-container {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+}
+
+.content-container {
+  width: 50vw;
+  height: 100vh;
+}
+.side-panel {
+  width: 50vw;
+  height: 100vh;
+  background-image: url(../static/login_side.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.header-container {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 0 100px;
+}
+
+.header-content #header-label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height */
+  color: #949495;
+}
+
+.form-container {
+  width: 100%;
+  height: 60vh;
+  padding: 100px;
+}
+
+.form-container-header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.form-container-header #header-label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height */
+
+  color: #4a4d54;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.login-form form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.loginForm div {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.loginForm div label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height */
+
+  color: #4a4d54;
+}
+
+.loginForm div input {
+  width: 330px;
+  height: 45px;
+  background: #ffffff;
+  /* Secondary/Gray 2 */
+
+  border: 1px solid #e0e2e7;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Secondary / Gray 4 */
+
+  color: #6f727a;
+  padding-left: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.loginForm div input:focus {
+  outline: none;
+}
+
+#submit-button {
+  width: 88px;
+  height: 48px;
+
+  /* Primary / Blue */
+
+  background: #2e65f3;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Primary/White */
+  padding: 0;
+  color: #ffffff;
+}
