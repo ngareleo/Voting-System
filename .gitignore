@@ -1,2 +1,3 @@
 ./votingsystem/db.sqlite3
 ./.gitignore
+/votingsystem/vs/migrations/
